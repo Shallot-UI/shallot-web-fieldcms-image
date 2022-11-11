@@ -108,7 +108,7 @@ export const Image: FunctionComponent<FieldImageProps &
       src={image && makeSrc(image, width, transformation)}
       srcSet={image && makeSrcSet(image, transformation)}
       sizes={`${width}px`}
-      style={{ ...style, height: height ?? transformedHeight, width }}
+      style={{ width, height: height ?? transformedHeight, ...style }}
       {...rest}
     />
   )
