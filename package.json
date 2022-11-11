@@ -31,7 +31,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "shallot-web-field-image",
+  "name": "@shallot-ui/web-fieldcms-image",
   "author": "Human Collective Inc.",
   "module": "dist/shallot-web-field-image.esm.js",
   "size-limit": [
